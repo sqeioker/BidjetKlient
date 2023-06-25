@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d49724b-231f-4cc3-8105-65848afc828d">
+  <producedTypes>
+    <managerType typeId="6e481752-410c-4a1b-b377-99a9aeedad71" valueTypeId="3a0fb1dd-6a29-43d1-b2c6-bd765ec32741"/>
+    <valueManagerType typeId="7377fc39-7766-4778-8035-62a655ae3eab" valueTypeId="81348622-88af-47f8-824d-95e3a0e05041"/>
+    <valueKeyType typeId="8285e13d-9cde-4e04-b3ae-0a01a8919643" valueTypeId="f178262d-0264-4561-91be-ea540b0a0d43"/>
+  </producedTypes>
+  <name>КодУзла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код узла</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdcfbef5-b933-4c48-adfc-0b6d62997d29">
+  <name>Семейное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейное</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4c99a4d6-f8bf-4779-9c21-27e4de3ed47f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="17cffbc1-8f22-4c0b-b26a-432cb1ef8588"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2ea31f8c-ea94-4bd4-9c39-9c5e280c454f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a6efa86a-0f68-4b1a-b2f5-6da05e719a2c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6786aef5-35b5-4b5e-a13a-4900809a73c6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3e7e663a-2107-4201-ba02-54c7913f545e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a0973832-73cb-41f6-954e-5cb2b6ca3579"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>SV</vendor>
+  <version>1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <functionality>BluetoothPrinters</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>WiFiPrinters</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>PushNotifications</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>LocalNotifications</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>PersonalComputerFileExchange</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Microphone</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>MusicLibrary</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>PictureAndVideoLibraries</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>AudioPlaybackAndVibration</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>AllFilesAccess</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="0a88d7fb-dece-4205-933c-001eb840f1e3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styles>Style.Стиль1</styles>
+  <commonModules>CommonModule.ПолучениеДанных</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <exchangePlans>ExchangePlan.Мобильный</exchangePlans>
+  <eventSubscriptions>EventSubscription.Регистрация</eventSubscriptions>
+  <commonCommands>CommonCommand.Синхронизация</commonCommands>
+  <commonCommands>CommonCommand.Реализация</commonCommands>
+  <commonCommands>CommonCommand.СемейныйЧат</commonCommands>
+  <commonCommands>CommonCommand.Отчет</commonCommands>
+  <commonCommands>CommonCommand.Настройки</commonCommands>
+  <commonCommands>CommonCommand.СписокРеализаций</commonCommands>
+  <constants>Constant.Логин</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.ЭтоНеПервоеПодключение</constants>
+  <constants>Constant.КодУзла</constants>
+  <constants>Constant.ТекущийПользователь</constants>
+  <constants>Constant.АдресПодключения</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаСтартовая</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ТипыНоменклатуры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СемейныйЧат</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <reports>Report.АнализЗатрат</reports>
+  <accumulationRegisters>AccumulationRegister.Покупки</accumulationRegisters>
+</mdclass:Configuration>

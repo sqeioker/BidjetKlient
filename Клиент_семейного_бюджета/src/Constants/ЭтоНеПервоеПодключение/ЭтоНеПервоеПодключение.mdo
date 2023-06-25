@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb2194f6-e44d-4ca3-a1aa-ab67064643d9">
+  <producedTypes>
+    <managerType typeId="4dbae862-7965-4b73-9cf0-e93fdd14a9e3" valueTypeId="d4c3fa96-1d87-4e26-bee9-cc014efb8c7e"/>
+    <valueManagerType typeId="67780d36-d5db-4fe3-8950-edb3a00c0648" valueTypeId="2b6d995b-76e5-4c7e-bd6a-87423937458b"/>
+    <valueKeyType typeId="b32321db-e52b-47b5-85af-d9f000c1a3c9" valueTypeId="e0d901cf-139d-422b-bb14-e5a10fe1980e"/>
+  </producedTypes>
+  <name>ЭтоНеПервоеПодключение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Это не первое подключение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

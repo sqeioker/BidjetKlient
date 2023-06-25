@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8c7f12-b0c5-47ae-a685-fba85b824cc2">
+  <producedTypes>
+    <managerType typeId="913f4405-7647-44c1-a97c-2685751b6cde" valueTypeId="4207f4e3-d82d-4fc4-a6d5-c4691f63d09e"/>
+    <valueManagerType typeId="03e28f8b-6646-4b9a-888a-cadf7cc17dbe" valueTypeId="55407795-9cd6-4f72-92ea-86441eb5abc4"/>
+    <valueKeyType typeId="16bc4c53-439e-4c7e-88c8-7edce7e1236d" valueTypeId="97f037e0-de0e-4b62-90ff-81975c1e4489"/>
+  </producedTypes>
+  <name>Логин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
