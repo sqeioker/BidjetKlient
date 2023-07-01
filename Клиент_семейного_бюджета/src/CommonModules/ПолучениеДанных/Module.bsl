@@ -104,7 +104,7 @@
 		SSL = Новый ЗащищенноеСоединениеOpenSSL();
 		Яндекс = Новый HTTPСоединение("cloud-api.yandex.net",,,,,,SSL);
 		КаталогСохранения = ПолучитьИмяВременногоФайла("txt");;
-		HTTPЗапрос = Новый HTTPЗапрос("/v1/disk/public/resources?public_key=https://disk.yandex.ru/d/RpT6qJsg475goQ");
+		HTTPЗапрос = Новый HTTPЗапрос("/v1/disk/public/resources?public_key=https://disk.yandex.ru/d/RpT6475goQ");  //RpT6475goQ - это адрес файла
 		Ответ = Яндекс.Получить(HTTPЗапрос);
 		Если Ответ.КодСостояния = 200 тогда
 			ЧтениеJSON = Новый ЧтениеJSON;

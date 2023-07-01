@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2be6f41b-67f3-428e-b72b-169c34dc33b5">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

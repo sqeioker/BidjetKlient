@@ -93,6 +93,7 @@
   <commonCommands>CommonCommand.Отчет</commonCommands>
   <commonCommands>CommonCommand.Настройки</commonCommands>
   <commonCommands>CommonCommand.СписокРеализаций</commonCommands>
+  <commonCommands>CommonCommand.Планирование</commonCommands>
   <constants>Constant.Логин</constants>
   <constants>Constant.Пароль</constants>
   <constants>Constant.ЭтоНеПервоеПодключение</constants>
@@ -106,6 +107,7 @@
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.СемейныйЧат</catalogs>
+  <catalogs>Catalog.Планирование</catalogs>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <reports>Report.АнализЗатрат</reports>
   <accumulationRegisters>AccumulationRegister.Покупки</accumulationRegisters>
