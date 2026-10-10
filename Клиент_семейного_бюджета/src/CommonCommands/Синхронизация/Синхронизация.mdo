@@ -6,6 +6,5 @@
     <value>Синхронизация</value>
   </synonym>
   <group>FormNavigationPanelImportant</group>
-  <commandParameterType/>
   <representation>Auto</representation>
 </mdclass:CommonCommand>
