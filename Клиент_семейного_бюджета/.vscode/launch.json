@@ -1,0 +1,30 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Отладка 1С (запуск)",
+            "type": "1c-platform-tools",
+            "request": "launch",
+            "rootProject": "${workspaceFolder}",
+            "debugServerHost": "localhost",
+            "autoAttachTypes": [
+                "ManagedClient",
+                "Server"
+            ],
+            "externalFilesSrc": [
+                "${workspaceFolder}/src/epf",
+                "${workspaceFolder}/src/erf"
+            ],
+
+            "externalFilesBuilds": [
+                "${workspaceFolder}/build/out/epf",
+                "${workspaceFolder}/build/out/erf",
+                "${workspaceFolder}/build/out/tests/epf"
+            ]
+        }
+    ]
+}
